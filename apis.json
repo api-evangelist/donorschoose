@@ -1,0 +1,127 @@
+{
+    "name": "DonorsChoose",
+    "description": "DonorsChoose.org connects teachers in high-need communities with donors who want to help.",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/394-donorschoose.jpg",
+    "tags": [
+        "api lifeycle",
+        "api provider",
+        "charities",
+        "classroom",
+        "donate",
+        "general data",
+        "have api",
+        "have swagger",
+        "k 12",
+        "marketplaces",
+        "nonprofit"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/donorschoose\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Donors Choose",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/394-donorschoose.jpg",
+            "humanURL": "http:\/\/donorschoose.org",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/donors-choose.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/donors-choose-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/donors-choose-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "DonorsChoose.org",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/394-donorschoose.jpg",
+            "humanURL": "http:\/\/donorschoose.org",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/donorschoose-org.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/donorschoose-org-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/donorschoose-org-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Base",
+            "url": "http:\/\/api.donorschoose.org"
+        },
+        {
+            "type": "Blog",
+            "url": "http:\/\/data.donorschoose.org\/"
+        },
+        {
+            "type": "Blog RSS",
+            "url": "http:\/\/feeds.feedburner.com\/HackingEducationData"
+        },
+        {
+            "type": "Contact Form",
+            "url": "http:\/\/www.donorschoose.org\/common\/contact_landing.html"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/donorschoose-org"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "http:\/\/www.crunchbase.com\/company\/donorschoose-org"
+        },
+        {
+            "type": "Developers",
+            "url": "http:\/\/data.donorschoose.org\/docs\/overview"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/DonorsChoose"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/394-2019-09-04-06-55-30.json"
+        },
+        {
+            "type": "Privacy",
+            "url": "http:\/\/www.donorschoose.org\/help\/privacy_policy.html"
+        },
+        {
+            "type": "Terms Of Service",
+            "url": "http:\/\/www.donorschoose.org\/help\/user_agreement.html"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/DonorsChoose"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/donorschoose.org"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/www.donorschoose.org\/"
+        }
+    ]
+}
