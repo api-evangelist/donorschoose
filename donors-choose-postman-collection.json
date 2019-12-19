@@ -1,0 +1,82 @@
+{
+    "id": "5d4cfb02b5c66a4f4e4c4866b7db8858",
+    "name": "Donors Choose",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "6c4f63e2a9ef497df272b9b46df02dd1",
+            "name": "Generate Gift Code",
+            "url": "httpsapi.donorschoose.orgcommon\/\/json_api.html",
+            "description": "Generate Gift Code",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "5d4cfb02b5c66a4f4e4c4866b7db8858",
+            "rawModeData": ""
+        },
+        {
+            "id": "e45a32d485a430ee3d49d8b9b7d93f97",
+            "name": "Get Giving Page",
+            "url": "httpsapi.donorschoose.orgcommon\/\/json_challenge.html",
+            "description": "Get Giving Page",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "5d4cfb02b5c66a4f4e4c4866b7db8858",
+            "rawModeData": ""
+        },
+        {
+            "id": "9bab68e20340384754588257987755c7",
+            "name": "Search",
+            "url": "httpsapi.donorschoose.orgcommon\/\/json_feed.html",
+            "description": "Search",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "5d4cfb02b5c66a4f4e4c4866b7db8858",
+            "rawModeData": ""
+        }
+    ]
+}
