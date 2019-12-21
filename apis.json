@@ -15,8 +15,8 @@
         "marketplaces",
         "nonprofit"
     ],
-    "created": "2019-12-19",
-    "modified": "2019-12-19",
+    "created": "2019-12-21",
+    "modified": "2019-12-21",
     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/donorschoose\/master\/apis.json",
     "specificationVersion": "0.14",
     "apis": [
@@ -30,15 +30,15 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/donors-choose.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/donorschoose\/master\/donors-choose-openapi.json"
                 },
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/donors-choose-openapi.json"
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/donors-choose.json"
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/donors-choose-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/donorschoose\/master\/donors-choose-postman-collection.json"
                 }
             ]
         },
@@ -52,21 +52,25 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/donorschoose-org.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/donorschoose\/master\/donorschoose-org-openapi.json"
                 },
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/donorschoose-org-openapi.json"
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/donorschoose-org.json"
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/donorschoose-org-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/donorschoose\/master\/donorschoose-org-postman-collection.json"
                 }
             ]
         }
     ],
     "include": [],
     "x-common": [
+        {
+            "type": "APIs.json",
+            "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/apis.json"
+        },
         {
             "type": "Base",
             "url": "http:\/\/api.donorschoose.org"
